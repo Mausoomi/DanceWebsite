@@ -8,6 +8,7 @@ import { Playfair_Display } from "@next/font/google";
 import { Roboto } from "next/font/google";
 import { useState } from "react";
 import ItemDescription from "./ItemDescription";
+import React from "react";
 
 const roboto = Roboto({
   weight: ["400"],

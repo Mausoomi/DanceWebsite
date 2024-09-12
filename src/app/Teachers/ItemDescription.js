@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import React from "react";
 const ItemDescription = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
